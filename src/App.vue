@@ -35,7 +35,7 @@
                   <v-card class="roundCard">
                     <div class="title mb-1 pa-3 text-xs-center">TiempoTiempoTiempo</div>
                     <v-layout column>
-                      <v-img src="https://instagram.fntr6-1.fna.fbcdn.net/vp/3b39e77712a7ee017b8f3ebd8388b05e/5D492418/t51.2885-15/e35/51661776_355373681978429_1499270316318585751_n.jpg?_nc_ht=instagram.fntr6-1.fna.fbcdn.net" aspect-ratio="1"></v-img>
+                      <v-img :src="require('@/assets/tiempo.jpg')" aspect-ratio="1"></v-img>
                     </v-layout>
                   </v-card>
                 </v-flex>
@@ -44,7 +44,7 @@
                   <v-card class="roundCard">
                     <div class="title mb-1 pa-3 text-xs-center">Sólo Ésta Vez</div>
                     <v-layout column>
-                      <v-img src="https://instagram.fntr6-1.fna.fbcdn.net/vp/3b39e77712a7ee017b8f3ebd8388b05e/5D492418/t51.2885-15/e35/51661776_355373681978429_1499270316318585751_n.jpg?_nc_ht=instagram.fntr6-1.fna.fbcdn.net" aspect-ratio="1"></v-img>
+                      <v-img :src="require('@/assets/solo.jpg')" aspect-ratio="1"></v-img>
                     </v-layout>
                   </v-card>
                 </v-flex>
@@ -53,7 +53,7 @@
           </v-flex>
         </v-layout>
       </section>
-
+      <v-divider></v-divider>
       <section>
         <v-layout
           column
@@ -69,13 +69,13 @@
           <v-flex xs12>
             <v-container grid-list-xl>
               <v-layout row wrap align-center>
-                <v-flex xs12 md4>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
-                      <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
+                      <v-img :src="require('@/assets/nesquik.jpg')" aspect-ratio="1"></v-img>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Material Design</div>
+                      <div class="headline text-xs-center">nesquik</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
@@ -84,28 +84,13 @@
                     </v-card-text>
                   </v-card>
                 </v-flex>
-                <v-flex xs12 md4>
+                <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
-                      <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
+                      <v-img :src="require('@/assets/refugee.jpg')" aspect-ratio="1"></v-img>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Fast development</div>
-                    </v-card-title>
-                    <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
-                    </v-card-text>
-                  </v-card>
-                </v-flex>
-                <v-flex xs12 md4>
-                  <v-card class="elevation-0 transparent">
-                    <v-card-text class="text-xs-center">
-                      <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
-                    </v-card-text>
-                    <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Completely Open Sourced</div>
+                      <div class="headline">Refugee</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
@@ -143,7 +128,7 @@
             <v-flex xs12 sm4>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Company info</div>
+                  <div class="headline">NueveOcho Records</div>
                 </v-card-title>
                 <v-card-text>
                   Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
